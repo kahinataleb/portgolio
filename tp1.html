@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TP01</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="normalize.css">
+</head>
+<body>
+    <nav>
+        <ul>
+            <li>
+                <a href="/index.html"><i class="fas fa-home"></i> </a>
+            </li>
+        </ul>
+    </nav>
+<main>
+    <h3>TP01</h3>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facilis id at optio iusto corrupti aliquid eaque, sunt quia, quo dolorem quaerat aut voluptatum quasi laudantium impedit quod a, beatae fuga.</p>
+
+<pre>
+       
+          #include <stdio.h>
+                     int factorial(int n) {
+                                if (n == 0 || n == 1) {
+                                  return 1;
+                                } else {
+                               return n * factorial(n - 1);
+                               }
+                    }
+                              
+                       int main() {
+                                int n;
+                                printf("Entrez un nombre entier positif : ");
+                               scanf("%d", &n);
+                              
+                              if (n < 0) {
+                                printf("Le factoriel n'est défini que pour les entiers positifs.\n");
+                                } else {
+                                 int result = factorial(n);
+                                  printf("Le factoriel de %d est : %d\n", n, result);
+                               }
+                              
+                               return 0;
+                       }
+                      Écrire à Ha Djiya
+
+   </pre>
+</main>
+</body>
+</html>
