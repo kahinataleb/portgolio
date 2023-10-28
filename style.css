@@ -3,7 +3,7 @@ body {
   margin-right: 1em;
   margin-left: 1em;
   padding: 0;
-  background-image: url("/mon-image.png");
+  background-image: url("/photo.webp");
 
   color: white;
 }
@@ -52,9 +52,11 @@ div a {
   color: white;
 }
 
-h2 {
+h2 ,h3  {
   text-align: center;
 }
+
+
 #image-container {
   display: flex;
   justify-content: center;
@@ -78,3 +80,4 @@ pre {
   border: 2px solid #4ea2e3;
   white-space: pre-wrap;
 }
+
